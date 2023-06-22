@@ -29,6 +29,6 @@ public class VendingMachineMain {
 		// main 메소드가 없는 클래스는 실행되지 않기 때문에 VendingMachineMain이라는 클래스에서 main 메소드를 작성하고 VendingMachine 인스턴스를 생성
 	
 		// 클래스명 변수명　 = new 　　　 클래스명();
-		// 참조타입 참조면수 = new 연산자 생성자
+		// 참조타입 참조면수 = new 연산자 생성자 
 	}
 }
