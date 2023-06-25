@@ -13,8 +13,8 @@ public class VendingMachineMain {
 	// 인스턴스로 메모리에 올라가야 오브젝트라고 부를 수 있고 사용할 수 있다.
 	
 	// 메인 메소드 안에는 String 클래스도 사용 : VendingMachineMain은 String 클래스에 의존
-		VendingMachine vm1 = new VendingMachine();
-		VendingMachine vm2 = new VendingMachine();
+//		VendingMachine vm1 = new VendingMachine();
+//		VendingMachine vm2 = new VendingMachine();
 		// 메모리 상에 VendingMachine이 생성
 		// vm1이라는 이름으로 가리키는 것
 		
@@ -31,12 +31,14 @@ public class VendingMachineMain {
 		// 클래스명 변수명　 = new 　　　 클래스명();
 		// 참조타입 참조면수 = new 연산자 생성자 
 		
-		String product = vm1.pushProductButton(100);
-		System.out.println(product);
+//		String product = vm1.pushProductButton(100);
+//		System.out.println(product);
 		
 		// 메뉴 아이디 100을 전달 받고, "콜라"가 리턴 
 		// 리턴된 "콜라"는 product 변수가 참조하게 된다.
 		// product의 값인 "콜라"가 출력되고 main 메소드가 종료되면서 자바 애플리케이션은 종료
 		
+		VendingMachine.printVersion();
+		// static한 메소드는 클래스명 다음에 사용
 	}
 }
