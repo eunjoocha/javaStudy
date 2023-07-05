@@ -8,6 +8,10 @@ public class CarExam02 {
 		// javaStudy.Car@15db9742
 		// Ctrl+Open Declaration
 		System.out.println(c1.toString());
+		c1.printName();
+		System.out.println("----------------");
+		Car c2 = new Car("DOOSAN");
+		c2.printName();
 	}
 }
 
