@@ -13,7 +13,7 @@ public class StringExam2 {
 		System.out.println(str1);
 		
 		String substring = str1.substring(3);
-		// String은 새로운 문자열을 만들어서 리턴
+		// String은 새로운 문자열을 만들어서 리턴 
 		// String이 가지고 있는 모든 메소드는 자기 자신을 변화시키지 않는다.
 		System.out.println(substring);
 		System.out.println(str1);
