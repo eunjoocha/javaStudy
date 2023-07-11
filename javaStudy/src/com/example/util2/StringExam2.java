@@ -22,7 +22,7 @@ public class StringExam2 {
 		// String의 어떤 메소드를 호출해도 String은 변하지 않는다.
 		
 		// String클래스는 왜 final일까?
-		// String과 비슷하지만 내부가 변하는 StringBuffer 클래스
+		// String과 비슷하지만 내부가 변하는 StringBuffer 클래스 
 	}
 }
 
